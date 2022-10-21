@@ -1,6 +1,9 @@
 fun main () {
-    val  dog = Dog()
-    dog.bark()
-    val cat = Cat()
-    cat.meow()
+    val  bear = object : Animal(name = "BrownBear") {
+        override fun makeSound() {
+            println("Rooaaar")
+        }
+        
+    }
+
 }
