@@ -1,10 +1,9 @@
 fun main () {
-print10Numbers()
+    val x = isEven(2)
+    println(x)
 
 }
-
-fun print10Numbers() {
-     for ( i in 1..10) {
-         println(i)
-     }
+fun isEven(number: Int) : Boolean {
+    return number % 2 == 0
 }
+
